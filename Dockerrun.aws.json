@@ -1,7 +1,7 @@
 {
     "AWSEBDockerrunVersion": "1",
     "Image": {
-        "Name": "sarahpeel/eb-docker-flask",
+        "Name": "sarahpeel/eb-docker-flask:latest",
         "Update": "true"
     },
     "Ports": [
