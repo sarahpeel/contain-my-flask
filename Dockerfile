@@ -1,6 +1,6 @@
 FROM python
-COPY . /contain_my_flask
-WORKDIR /contain_my_flask
+COPY . /aws_beanstalk
+WORKDIR /aws_beanstalk
 RUN pip install -r requirements.txt
 EXPOSE 5000
 CMD /app.py
